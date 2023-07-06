@@ -3,27 +3,56 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: rgb(43, 41, 41);
-    padding: 20px;
+    background-color:#424141;
+    padding: 5px;
     color:white;
-    list-style: none;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
 }
 .menus{
     display: flex;
+    list-style: none;
 
 }
 .logo-photo{
     width: 120px;
+    padding: 5px;
 }
 .items{
-    margin-right: 10px;
-    padding-right: 7px;
-    font-size: 18px;
+    margin-right: 17px;
+    padding-right: 5px;
+    font-size: 12px;
     cursor: pointer;
 }
 .items:hover{
     color: aqua;
 }
+.banner-img{
+    width: 200px;
+}
+.banner-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    /* margin-top: 40px; */
+    align-items: center;
+    height:100vh;
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(5, 5, 5),#2e2e2e);
+    }
+    .title{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .description{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .btn{
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        border: none;
+    }
