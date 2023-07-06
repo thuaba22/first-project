@@ -55,12 +55,12 @@
     }
     .btn{
         margin-top: 20px;
-        padding: 13px 20px;
-        outline: none;
-        background-color: red;
-        border-radius: 3px;
-        border: none;
-        color: white;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
     }
     .about-container{
         display: flex;
@@ -75,4 +75,36 @@
         text-align: center;
         padding-top: 20px;
     }
-   
+    .box{
+        width: 200px;
+        height: 280px;
+        /* border: 1px solid gray; */
+        padding: 15px;
+        text-align: center;
+        box-shadow: 4px  2px 105px gray;
+        border-radius: 10px;
+        background-color: black;
+        color:white;
+    }
+   .icon{
+    width: 70px;
+    color: #2e2e2e;
+   }
+   .box-title{
+    padding:10px;
+}
+   .box-btn{
+    background-color: #1c1b1b;
+    padding: 10px;
+   }
+   .service-container{
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+    flex-wrap: wrap;
+   }
+   .box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
